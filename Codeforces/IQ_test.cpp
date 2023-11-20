@@ -16,18 +16,24 @@ int main() {
 
     int n;
     cin >> n;
-    for(int i = 0; i < n; i++){
+    int counterA = 0, counterB = 0;
+    vi V, C;
+    for (int i = 1; i <= n; i++) {
         int x;
         cin >> x;
-        if(x % 3 == 0){
-            cout << "Second" << endl;
-        } else{
-            cout << "First" << endl;
+        if (x % 2 == 0) {
+            V.pb(i);
+        } else {
+            C.pb(i);
         }
     }
-
+    if (C.size() == 1) {
+        cout << C[0];
+    } else {
+        cout << V[0];
+    }
 
     return 0;
 }
 
-//https://codeforces.com/problemset/problem/1899/A
+//https://codeforces.com/problemset/problem/25/A

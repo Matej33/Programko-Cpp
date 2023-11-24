@@ -137,3 +137,5 @@ int main() {
         cout << osem;
 return 0;
 }
+
+// https://zenit.ksp.sk/task/zenit22kke

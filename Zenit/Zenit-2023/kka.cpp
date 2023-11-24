@@ -14,10 +14,10 @@ int main() {
     ios::sync_with_stdio(false);
     cin.tie(nullptr);
 
-    cout << "programovania" << endl;
+    cout << 10000000019 << endl;
 
 
     return 0;
 }
 
-//https://zenit.ksp.sk/task/zenit23ska
+// https://zenit.ksp.sk/task/zenit23kka

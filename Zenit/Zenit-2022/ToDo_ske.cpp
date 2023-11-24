@@ -17,3 +17,5 @@ int main(){
                 cout << a << endl;
     return 0;
 }
+
+// https://zenit.ksp.sk/task/zenit22ske

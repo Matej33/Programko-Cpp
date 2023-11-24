@@ -23,3 +23,5 @@ for (int pocet = 0; pocet < o.length(); pocet++){
 
     return 0;
 }
+
+//https://zenit.ksp.sk/submit/1666082378-86972

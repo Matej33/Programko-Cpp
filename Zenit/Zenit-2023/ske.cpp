@@ -40,3 +40,5 @@ int main() {
 
     return 0;
 }
+
+// https://zenit.ksp.sk/task/zenit23ske

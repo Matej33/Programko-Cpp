@@ -14,6 +14,8 @@ int main() {
     ios::sync_with_stdio(false);
     cin.tie(nullptr);
 
+    // TODO
+
     vector<int> position = {82,68,79,17,70,51,5,46,27,44,39,57,94,45,88,56};
     int m = 9;
     sort(position.begin(), position.end());

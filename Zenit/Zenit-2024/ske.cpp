@@ -14,26 +14,16 @@ int main() {
     ios::sync_with_stdio(false);
     cin.tie(nullptr);
 
-// TODO - nefunguje lol
-
     int x;
     cin >> x;
     int n;
 
-    int validNumbers[] = {5, 7, 10, 12, 14, 15, 17,18,19,20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30};
     for (int i = 0; i < x; i++) {
         cin >> n;
-        bool found = false;
-        for (int j = 0; j < 20; ++j) {
-            if (validNumbers[i] == x) {
-                found = true;
-                break;
-            }
-        }
-        if (found) {
-            cout << "ANO" << endl;
-        } else {
+        if (n == 0 || n == 1 || n == 2 || n == 3 || n == 4 || n == 6 || n == 8 || n == 9 || n == 11 || n == 16){
             cout << "NIE" << endl;
+        } else {
+            cout << "ANO" << endl;
         }
     }
 

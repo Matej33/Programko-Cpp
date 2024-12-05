@@ -1,25 +1,31 @@
-//treba opraviť
-
-#include <iostream>
-#include <ctime>
-#include <cstdlib>
+#include <bits/stdc++.h>
 
 using namespace std;
 
+#define ll long long
+#define ull unsigned long long
+#define endl "\n"
+#define db double
+#define str string
+#define vi vector<int>
+#define pb push_back
+
 int main() {
-    {
-        int x;
-        cout << "Overenie ci nie si robot" << endl;
-        jump:
-        cout << "Kolko je 2 + 2 ?" << endl;
-        cin >> x;
-        if (x != 4) {
-            cout << "Zly vysledok!" << endl;
-            goto jump;
-            return 1;
-        } else
-            cout << "ok" << endl;
-    }
+    ios::sync_with_stdio(false);
+    cin.tie(nullptr);
+string o = "Hi";
+
+    int x;
+    cout << "Overenie ci nie si robot" << endl;
+    jump:
+    cout << "Kolko je 2 + 2 ?" << endl;
+    cin >> x;
+    if (x != 4) {
+        cout << "Zly vysledok!" << endl;
+        goto jump;
+    } else
+        cout << "ok" << endl;
+
     int vyber;
     start:
     cout << "Ak chces hadat ty zadaj 1" << endl;
@@ -37,7 +43,6 @@ int main() {
         if (a >= b) {
             cout << "Nespravne zadany interval" << endl;
             goto skok;
-            return 1;
         }
         srand(time(NULL));
         c = (a + rand() % (b - a + 1));

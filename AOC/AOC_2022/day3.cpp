@@ -6,7 +6,7 @@ int main(){
     string line1, line2, line3;
     int x = 0, y = 0, z = 0, pocitadlo = 0;
     bool is;
-
+// TODO
 for (int u = 0; u < 5; u++) {
     is = true;
         getline(cin, line1);

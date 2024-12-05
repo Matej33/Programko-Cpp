@@ -3,7 +3,7 @@
 using namespace std;
 
 int main(){
-    int n = 2251, x = 0, y = 0; // riadky som šlahol do nejakej stránky a spočítalo mi ich, že ich je 2251
+    int n = 2249, x = 0, y = 0; // riadky som šlahol do nejakej stránky a spočítalo mi ich, že ich je 2251
     long max1 = 0, max2 = 0, max3 = 0;
     for (int i = 0; i < n; i++){
         cin >> x;
@@ -26,10 +26,10 @@ int main(){
             y = 0;
         }
     }
-    cout << "top 1 " << max1 << endl;       //top 1 71924
-    cout << "top 2 " << max2 << endl;       //top 2 69893
-    cout << "top 3 " << max3 << endl;       //top 3 68589
-    cout << max1 + max2 + max3 << endl;     //210406
+    cout << "top 1 " << max1 << endl;       //top 1 69501
+    cout << "top 2 " << max2 << endl;       //top 2 66606
+    cout << "top 3 " << max3 << endl;       //top 3 66239
+    cout << max1 + max2 + max3 << endl;     //202346
 
     return 0;
 }

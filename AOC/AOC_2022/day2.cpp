@@ -20,3 +20,5 @@ int main(){
     cout << pocitadlo << endl;
     return 0;
 }
+
+//15284 part 1 malo to je

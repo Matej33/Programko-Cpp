@@ -17,10 +17,17 @@ int main() {
     int answer = 0;
     for (int i = 999; i > 900; i--) {
         for (int j = 999; j > 900; j--) {
-        answer = (i*j);
-        string to_string(int answer);
+            answer = (i * j);
+            string first = to_string(answer);
+            str other = first;
+            reverse(other.begin(), other.end());
+            if (first == other) {
+                cout << answer << endl;
+                return 0;
+            }
         }
     }
+    cout << "No palindrome found" << endl;
     
     return 0;
 }

@@ -10,6 +10,8 @@ using namespace std;
 #define vi vector<int>
 #define pb push_back
 
+// TODO it is not time efficient
+
 int main() {
     ios::sync_with_stdio(false);
     cin.tie(nullptr);
@@ -53,3 +55,5 @@ int main() {
 
     return 0;
 }
+
+// https://codeforces.com/contest/2044/problem/G1

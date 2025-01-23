@@ -14,14 +14,8 @@ int main() {
     ios::sync_with_stdio(false);
     cin.tie(nullptr);
 
-    int n, a;
-    cin >> n;
-    for (int i = 0; i < n; i++) {
-       cin >> a;
-       cout << a-1 << endl;
-    }
+    sokoban ale daju sa hybat boxy
+
 
     return 0;
 }
-
-// https://codeforces.com/contest/2044/problem/A

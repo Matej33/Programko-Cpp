@@ -14,16 +14,14 @@ int main() {
     ios::sync_with_stdio(false);
     cin.tie(nullptr);
 
-    int n, a;
+    int n;
+    ll count = 0;
     cin >> n;
-    for (int i = 0; i < n; i++) {
-       cin >> a;
-       cout << a-1 << endl;
+    string s = to_string(n);
+    for (int i = 0; i < s.size(); i++) {
+        count += s[i] - '0';
     }
+    cout << count << endl;
 
     return 0;
 }
-
-// https://codeforces.com/contest/2044/problem/A
-
-// https://codeforces.com/contest/2044/problem/A

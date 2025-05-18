@@ -3,4 +3,4 @@ project(Programko_Cpp)
 
 set(CMAKE_CXX_STANDARD 23)
 
-add_executable(Programko_Cpp Codeforces/Anton_and_Danik.cpp)
+add_executable(Programko_Cpp idkcotoje/toLower.cpp)

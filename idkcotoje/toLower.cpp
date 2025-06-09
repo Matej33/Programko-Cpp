@@ -1,4 +1,4 @@
-#include <bits/stdc++.h>
+#include <iostream>
 
 int main() {
     std::string s;
@@ -8,4 +8,3 @@ int main() {
     std::cout << s << std::endl;
     return 0;
 }
-//podmienka ze som napisal nieco co nie je lower case pismenko

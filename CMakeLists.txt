@@ -3,4 +3,4 @@ project(Programko_Cpp)
 
 set(CMAKE_CXX_STANDARD 23)
 
-add_executable(Programko_Cpp idkcotoje/toLower.cpp)
+add_executable(Programko_Cpp idkcotoje/velkostZvuku.cpp)
